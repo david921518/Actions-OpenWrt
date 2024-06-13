@@ -1,10 +1,11 @@
 #
-# https://github.com/P3TERX/Actions-OpenWrt
+# https://github.com/david921518/Actions-OpenWrt
 #
 # File: .github/workflows/update-checker.yml
 # Description: Source code update checker
 #
 # Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
+# Copyright (c) 2024 david921518 <https://tanghui.fun>
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
@@ -13,8 +14,8 @@
 name: Update Checker
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/david921518/openwrt
+  REPO_BRANCH: openwrt-23.05
 
 on:
   workflow_dispatch:
